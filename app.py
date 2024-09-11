@@ -156,6 +156,7 @@ async def get_growth_trends(
             previous_data["follower_count"],
             "Follower Growth Rate",
         )
+        # Engagement rate is impressions / reach
         engagement_growth = calculate_growth(
             current_data["engagement_rate"],
             previous_data["engagement_rate"],
